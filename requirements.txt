@@ -1,8 +1,8 @@
-streamlit==1.31.1          # stable, works on Cloud Python 3.10–3.11
+streamlit==1.31.1
 pandas==2.0.3
-numpy==1.24.4              # compatible with older torch
+numpy==1.24.4
 matplotlib==3.7.2
-torch==2.0.1+cpu           # older but has wheels for Cloud
+torch==2.0.1+cpu
 torchvision==0.15.2+cpu
 torchaudio==2.0.2+cpu
 --index-url https://download.pytorch.org/whl/cpu
